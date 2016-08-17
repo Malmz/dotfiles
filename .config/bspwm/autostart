@@ -1,0 +1,16 @@
+#!/bin/bash
+
+xsetroot -cursor_name left_ptr &
+setxkbmap se &
+setxkbmap -option caps:swapescape &
+feh --bg-scale $HOME/.wallpaper.jpg &
+compton -b &
+nm-applet &
+pasystray -a &
+xfce4-power-manager &
+light-locker &
+thunar --daemon &
+redshift &
+sxhkd &
+tint2 &
+
